@@ -7,6 +7,6 @@ export class AppService {
   }
 
   greetApp(): string {
-    return 'Backend is working ...';
+    return 'Backend is working fine...';
   }
 }
