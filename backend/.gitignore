@@ -1,5 +1,4 @@
 # compiled output
-'../frontend'
 /dist
 /node_modules
 /build
