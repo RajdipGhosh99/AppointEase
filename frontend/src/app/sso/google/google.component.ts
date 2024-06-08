@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { gapi, load } from "google-api-javascript-client";
 
 @Component({
   selector: 'app-google',
