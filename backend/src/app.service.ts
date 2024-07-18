@@ -9,4 +9,12 @@ export class AppService {
   greetApp(): string {
     return 'Backend is working fine...';
   }
+
+  getProjectDetails(): Object{
+    return {
+      'name': "AppointEase",
+      'version': 'beta-0.0.1',
+      'inspired': 'calendly'
+    }
+  }
 }

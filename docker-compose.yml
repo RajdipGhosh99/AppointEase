@@ -1,0 +1,15 @@
+version: "3.8"  # Adjust version if needed
+
+services:
+  backend:
+    build: ./backend  # Path to your backend directory
+    ports:
+      - "4000:3000"  # Map container port 3000 to host port 4000
+    restart: unless-stopped  # Restart strategy for backend service
+
+  frontend:
+    build: ./frontend  # Path to your frontend directory
+    ports:
+      - "4200:80"  # Map container port 3000 to host port 4200
+    restart: unless-stopped   # Restart strategy for frontend service
+    #restart: always  # Restart strategy for frontend service

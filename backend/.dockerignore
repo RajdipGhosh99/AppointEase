@@ -1,0 +1,11 @@
+node_modules
+npm-*.log
+.git
+.angular
+.editorconfig
+.vscode
+e2e
+docs
+.gitignore
+*.zip
+.eslintrc.js
